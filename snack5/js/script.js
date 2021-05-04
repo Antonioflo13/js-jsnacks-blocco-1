@@ -15,11 +15,11 @@ function pari (num) {
 }
 
 var arrayVuoto = [];
-console.log(arrayVuoto);
+// console.log(arrayVuoto);
 var i = 0;
 do {
     var inserisciNumero = prompt("Ti chiedo un numero!");
-    if (pari (inserisciNumero) == true) {
+    if (pari (inserisciNumero) == true ) {
         arrayVuoto.push(inserisciNumero);
     }
     i++;
